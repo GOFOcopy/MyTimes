@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: georgia;
 }
 header {
     width: 100%;
@@ -34,4 +35,67 @@ li {
 }
 li a {
     color: black;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+article {
+    border: 1px solid black;
+}
+section#large {
+    width: 630px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 25px;
+}
+section#medium {
+    width: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-right: 25px;
+}
+section#small {
+    width: 240px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+header.textpick1 {
+    font-size: 1.75em;
+    background-image: url(./images/img-story-main.png);
+    
+}
+
+header.textpick1 h2 {
+    
+}
+header.textpick2 {
+    background-image: url(./images/fall.png);
+    justify-content: center;
+}
+header.textpick3 {
+    background-image: url(./images/cameraman.png);
+    justify-content: center;
+}
+header.textpick4 {
+    background-image: url(./images/cat.png);
+    justify-content: center;
+}
+main header {
+    height: 300px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    font-size: 1.5em;
+    font-family: Georgia;
+}
+p {
+    font-size: 1em;
+    color: black;
+}
+footer {
+    height: 100px;
 }
